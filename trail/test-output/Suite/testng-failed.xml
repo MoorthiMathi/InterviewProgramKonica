@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)" preserve-order="true">
+    <classes>
+      <class name="trail.testTrailForCortex">
+        <methods>
+          <include name="FlowOneValidScenario"/>
+          <include name="Setup"/>
+          <include name="tearDown"/>
+          <include name="FlowOneNegativeScenario"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
